@@ -1,0 +1,33 @@
+@font-face {
+  font-family: OpenSans;
+  src: url();
+  font-size: 700;
+}
+@font-face {
+  font-family: OpenSans;
+  src: url();
+  font-weight: 400;
+}
+@font-face {
+  font-family: Tinos;
+  src: url();
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+Li {
+  list-style: none;
+}
+
+.cont {
+  max-width: 1118px;
+  margin: 0 auto;
+}

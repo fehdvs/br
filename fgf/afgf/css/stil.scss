@@ -1,0 +1,226 @@
+$btm_color: #ff7400;
+$font_text-color:#656363;
+$font_title-color:#D67E34;
+
+@font-face {
+    font-family: OpenSans;
+    src: url();
+    font-size: 700;
+}
+@font-face {
+    font-family: OpenSans;
+    src: url();
+    font-weight: 400;
+}
+@font-face {
+    font-family: Tinos;
+    src: url();
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+Li{
+    list-style: none;
+}
+.constryktor{
+    max-width: 1118px;
+    margin: 0 auto;
+    @media (max-width: 1025px;) {
+        max-width: unset;
+        padding: 0 10px;
+    }
+    @media (max-width: 500px;) {
+        padding: 0 14px;
+    }
+        
+    }
+.btn{
+    background-color: $btm_color;
+    color: #fff;
+    font-family: OpenSans;
+    font-style: 14px;
+    font-weight: 700;
+    padding: 14px 16 px;
+}
+.main{
+    background: url() no-repeat center center/ cover;
+        &_block{
+            height: unu;
+            min-width:485px ;
+            display: flex;
+            font-display:column;
+            @media (max-width:869) {
+                
+            }
+        }
+        &_subtitle{
+            font-family: Tinos;
+            font-weight: 400;
+            color: &$font_title-color;
+            font-style: 50px;
+        }
+        &_title{
+            font-family: Tinos;
+            font-weight: 400;
+            color: &$font_title-color;
+            font-style: 80px;
+            margin-bottom: 12px;
+          
+        }
+
+        &_text{
+            font-family: OpenSans;
+            font-weight: 400;
+            color:#fff;
+            font-style: 18px;
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            gep: 8px;
+            &::before{
+                content: '';
+                display: block;
+                width: 61px;
+                height:1px ;
+                background-color: #fff;
+            }
+        }
+}.header{
+    padding: 50px 0;
+    &_wp{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &_logo{
+        width: 100px;
+        & img{
+            width: 100%;
+        } 
+        @media (max-width:863px) {
+            width: 75px;
+        }
+    &_burger{
+        display: none;
+        @media (max-width:749) {
+            display:block;
+        }
+    }
+    &_blok{
+        display: flex;
+        align-items: center;
+        @media (max-width:749) {
+        display: none;
+    }}
+    &_nenu{
+        display: flex;
+        gap: 23px;
+        margin-right: 36px;
+        @media (max-width:700){
+            margin-right: 25px;
+            
+        }
+    }
+    &_link{
+        font-family: OpenSans;
+        font-weight: 700;
+        font-size: 14px;
+        color: #fff;
+        &:hover{
+            color: $font_text-color;
+        }
+        @media (min-width: 700px;) {
+            font-style: 12px;
+            font-weight: 400;
+        }
+    }
+    &_box{
+        display: flex;
+        align-items: center;
+        margin-right: 45px;
+        @media  (max-width:769) {
+            margin-right: 25px;
+            
+        }
+    }
+    &_cart{
+        border-right: 1px solid #fff;
+        padding: 17px 21px 17px 0;
+        margin-right: 34px;
+        @media (max-width:769) {
+            margin-right:20px ;
+            
+        }
+    }
+    $_phone{
+        $-link{
+            font-family: OpenSans;
+            font-weight:700;
+            font-size 18px;
+            color: #fff;
+            $::before{
+                content: '';
+                background: url();
+                display: block;
+                width: 25px;
+                height: 23px;
+            }
+            @media (max-width: 769px) {
+                font-style: 14px;
+                font-style: 400px;
+                
+            }
+        }
+        &-text {
+            font-family: OpenSans;
+            font-weight: 400;
+            font-style: 14px;
+            color: #fff;
+            min-width: 155px;
+        }
+    }
+    $_btn{ 
+        @media (max-width:769) {
+            text-align: center;
+
+
+    }
+.history{
+
+   align-items: center;
+   text-align: center;
+     &_card{
+        width: 349px;
+        height: 328px;
+        box-shadow: 10px 10px 40px 1px #363333;
+        padding: 48px 25px 20px 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &_card-title{
+        color: #2c2c2c;
+        font-style: 26px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        span{
+            color: #Bc9060;
+        }
+    }
+    &_card-text{
+        color: #656363;
+
+    }
+ }     
+         
+
+
+}
+}
